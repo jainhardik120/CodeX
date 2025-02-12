@@ -1,0 +1,68 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: lighter;
+}
+
+.shape {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 200px;
+  width: 200px;
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#square:hover {
+  display: flex;
+  background-color: red;
+}
+
+
+#circle {
+  display: hidden;
+  border-radius: 50%;
+  
+}
+
+#circle:hover {
+  display: flex;
+  background-color: green;
+}
+
+#diamond:hover {
+  display: flex;
+  background-color: blue;
+}
+
+#diamond {
+  margin-top: 100px;
+  rotate : 45deg
+}
+
+#diamond h1 {
+  rotate: -45deg;
+}

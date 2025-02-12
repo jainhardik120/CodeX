@@ -1,0 +1,420 @@
+curl "https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Cache-Control: max-age=0" ^
+  -H "Connection: keep-alive" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "If-Modified-Since: Fri, 30 Dec 2022 06:04:04 GMT" ^
+  -H "Sec-Fetch-Dest: document" ^
+  -H "Sec-Fetch-Mode: navigate" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "Sec-Fetch-User: ?1" ^
+  -H "Upgrade-Insecure-Requests: 1" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --compressed &
+curl "https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --compressed &
+curl "https://www.google.com/recaptcha/api.js" ^
+  -H "authority: www.google.com" ^
+  -H "accept: */*" ^
+  -H "accept-language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "cookie: __Secure-3PSID=SAi3NPNWaba4C5tj6DVoAInJBuugc_SXuUAR4fDzaRkETyDSDEdmzf8Uo3IwAYmYkUhX4g.; __Secure-3PAPISID=0jIrxlQ_ReZrp6BX/AVxrny0cPAxw1Gr-Q; 1P_JAR=2023-01-05-15; NID=511=cAj_0JA3bhevJ-5Omft4RqyNlKKVsBeXc7Cr8IH-Hx4T7xU1OGsEWPZOP3svId1pGLjcYb8KjKevu49o0BUDmS7ZFeSihM5wIdIrNYzPXKjxYcyoc_nlmMc7dkIJ-tWwlwHSUNieToFv5ebWtTmceF-973tq6m7MgEXhWpPclTybn3D_a4zfzfml-mCokecqgQlJR7vQ7LW40Ki0abqPFbB-msAcuzcCFvL0PqIt2d2daSww-rHIIWsNa_5cWpBlrnSTrX0o9264eLLlT8hJN1b0OwuK83VQBfeaBok7hNI; __Secure-3PSIDCC=AIKkIs0dd96XF1ZTSUhvkibM2OCUl4qWEfhOjzEKqm1f1ZIDLkV8OyXvfow3DgXsTaw4z24tkY4" ^
+  -H "referer: https://webportal.jiit.ac.in:6011/" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  -H "sec-fetch-dest: script" ^
+  -H "sec-fetch-mode: no-cors" ^
+  -H "sec-fetch-site: cross-site" ^
+  -H "user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "x-client-data: CKm1yQEIkLbJAQimtskBCMS2yQEIqZ3KAQi45MoBCJWhywEI8YDNAQiygs0B" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/assets/images/logos/campuslynx-loader.png" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/runtime.677cb970f437b7c6722c.js" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/polyfills.8a3ed600f42be4240993.js" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/main.b74b07bad5331bcb2656.js" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --compressed &
+curl "https://fonts.gstatic.com/s/materialicons/v139/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "Referer: https://fonts.googleapis.com/" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --compressed &
+curl "https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4.woff2" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "Referer: https://fonts.googleapis.com/" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --compressed &
+curl "https://fonts.gstatic.com/s/titilliumweb/v15/NaPecZTIAOhVxoMyOr9n_E7fdMPmDQ.woff2" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "Referer: https://fonts.googleapis.com/" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/fontawesome-webfont.af7ae505a9eed503f8b8.woff2?v=4.7.0" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/styles.7d96d7d414f9d7e8ba55.css" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/roboto-v15-latin-regular.7e367be02cd17a96d513.woff2" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/styles.7d96d7d414f9d7e8ba55.css" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/primeicons.473e2a746d3c151d7dca.ttf" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/styles.7d96d7d414f9d7e8ba55.css" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/clxuser/getmenulist" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjcyOTMzOTMyLCJleHAiOjE2NzMwMjM5MzJ9.QaULQU3usXDxiNDmeO8arCp0qHoq01HopkUIaNXElcY" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --data-raw "^{^\^"userid^\^":^\^"USID2109A0000458^\^",^\^"memberid^\^":^\^"JIAC2202375^\^",^\^"instituteid^\^":^\^"11IN1902J000001^\^",^\^"membertype^\^":^\^"S^\^"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/assets/images/avatars/profile.jpg" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/assets/images/logos/CLX.png" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/sidebar-bg.5d9b4745577a6249fd83.jpg" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/styles.7d96d7d414f9d7e8ba55.css" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentbankdetails/getstudentbankinfo" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjcyOTMzOTMyLCJleHAiOjE2NzMwMjM5MzJ9.QaULQU3usXDxiNDmeO8arCp0qHoq01HopkUIaNXElcY" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --data-raw "^{^\^"instituteid^\^":^\^"11IN1902J000001^\^",^\^"studentid^\^":^\^"JIAC2202375^\^"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/feedbackformcontroller/getDataForFeedback" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjcyOTMzOTMyLCJleHAiOjE2NzMwMjM5MzJ9.QaULQU3usXDxiNDmeO8arCp0qHoq01HopkUIaNXElcY" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --data-raw "^{^\^"instituteid^\^":^\^"11IN1902J000001^\^",^\^"memberid^\^":^\^"JIAC2202375^\^"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/onlinefeepayment/getmyactivefeeevents" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjcyOTMzOTMyLCJleHAiOjE2NzMwMjM5MzJ9.QaULQU3usXDxiNDmeO8arCp0qHoq01HopkUIaNXElcY" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --data-raw "^{^\^"instituteid^\^":^\^"11IN1902J000001^\^",^\^"studentid^\^":^\^"JIAC2202375^\^",^\^"maineventid^\^":^\^"^\^"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/null" ^
+  -H "Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Connection: keep-alive" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: image" ^
+  -H "Sec-Fetch-Mode: no-cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --compressed &
+curl "chrome-extension://cjdnfmjmdligcpfcekfmenlhiopehjkd/web_resources/modal/modal.css" ^
+  -H "Referer;" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  --compressed &
+curl "https://www.gstatic.com/recaptcha/releases/5qcenVbrhOy8zihcc2aHOWD4/recaptcha__en.js" --compressed &
+curl "chrome-extension://aegnopegbbhjeeiganiajffnalhlkkjb/img/popup/setting-icon.svg" ^
+  -H "Referer;" ^
+  -H "If-None-Match: ^\^"5Nn/IbW43YPJmgVRwOO6j+mzRCY=^\^"" ^
+  -H "If-Modified-Since: Wed, 01 Jun 2022 13:33:00 GMT" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  --compressed &
+curl "chrome-extension://aegnopegbbhjeeiganiajffnalhlkkjb/css/custom.css" ^
+  -H "Referer;" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  --compressed &
+curl "chrome-extension://aegnopegbbhjeeiganiajffnalhlkkjb/img/popup/sts-free-logo.png" ^
+  -H "Referer;" ^
+  -H "If-None-Match: ^\^"5Nn/IbW43YPJmgVRwOO6j+mzRCY=^\^"" ^
+  -H "If-Modified-Since: Wed, 01 Jun 2022 13:33:00 GMT" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/favicon.ico" --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/5.18ee43c440281ecd0c6a.js" --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/7.e97ee01865890dd4d2fc.js" --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/header-bg.114d593511446b9a4c6e.png" --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/assets/errorData/errorcode_prelogin.json" --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentsgpacgpa/loadData" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjcyOTMzOTMyLCJleHAiOjE2NzMwMjM5MzJ9.QaULQU3usXDxiNDmeO8arCp0qHoq01HopkUIaNXElcY" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --data-raw "^{^\^"instituteid^\^":^\^"11IN1902J000001^\^",^\^"studentid^\^":^\^"JIAC2202375^\^"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentsgpacgpa/checkIfstudentmasterexist" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjcyOTMzOTMyLCJleHAiOjE2NzMwMjM5MzJ9.QaULQU3usXDxiNDmeO8arCp0qHoq01HopkUIaNXElcY" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --data-raw "^{^\^"instituteid^\^":^\^"11IN1902J000001^\^",^\^"studentid^\^":^\^"JIAC2202375^\^",^\^"name^\^":^\^"HARDIK  JAIN^\^",^\^"enrollmentno^\^":^\^"21103185^\^"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentsgpacgpa/getallsemesterdata" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjcyOTMzOTMyLCJleHAiOjE2NzMwMjM5MzJ9.QaULQU3usXDxiNDmeO8arCp0qHoq01HopkUIaNXElcY" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --data-raw "^{^\^"instituteid^\^":^\^"11IN1902J000001^\^",^\^"studentid^\^":^\^"JIAC2202375^\^",^\^"stynumber^\^":^\^"3^\^"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentsgpacgpa/getallsemesterdatadetail" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjcyOTMzOTMyLCJleHAiOjE2NzMwMjM5MzJ9.QaULQU3usXDxiNDmeO8arCp0qHoq01HopkUIaNXElcY" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --data-raw "^{^\^"instituteid^\^":^\^"11IN1902J000001^\^",^\^"studentid^\^":^\^"JIAC2202375^\^",^\^"stynumber^\^":2^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentsgpacgpa/getallsemesterdatadetail" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjcyOTMzOTMyLCJleHAiOjE2NzMwMjM5MzJ9.QaULQU3usXDxiNDmeO8arCp0qHoq01HopkUIaNXElcY" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --data-raw "^{^\^"instituteid^\^":^\^"11IN1902J000001^\^",^\^"studentid^\^":^\^"JIAC2202375^\^",^\^"stynumber^\^":1^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/assets/errorData/errorcode_prelogin.json" --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentgradecard/getstudentinfo" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjcyOTMzOTMyLCJleHAiOjE2NzMwMjM5MzJ9.QaULQU3usXDxiNDmeO8arCp0qHoq01HopkUIaNXElcY" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --data-raw "^{^\^"instituteid^\^":^\^"11IN1902J000001^\^",^\^"studentid^\^":^\^"JIAC2202375^\^"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentgradecard/getregistrationList" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjcyOTMzOTMyLCJleHAiOjE2NzMwMjM5MzJ9.QaULQU3usXDxiNDmeO8arCp0qHoq01HopkUIaNXElcY" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --data-raw "^{^\^"instituteid^\^":^\^"11IN1902J000001^\^",^\^"studentid^\^":^\^"JIAC2202375^\^"^}" ^
+  --compressed &
+curl "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEgMWgxMHYySDF6bTAgNGgxMHYySDF6bTAgNGgxMHYySDF6IiBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=" ^
+  -H "Referer;" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentgradecard/showstudentgradecard" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjcyOTMzOTMyLCJleHAiOjE2NzMwMjM5MzJ9.QaULQU3usXDxiNDmeO8arCp0qHoq01HopkUIaNXElcY" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --data-raw "^{^\^"instituteid^\^":^\^"11IN1902J000001^\^",^\^"studentid^\^":^\^"JIAC2202375^\^",^\^"registrationid^\^":^\^"JIRUM22050000001^\^",^\^"branchid^\^":^\^"JIBRN19040000021^\^",^\^"programid^\^":^\^"JIPRO19040000006^\^"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentgradecard/getregistrationList" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjcyOTMzOTMyLCJleHAiOjE2NzMwMjM5MzJ9.QaULQU3usXDxiNDmeO8arCp0qHoq01HopkUIaNXElcY" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: ^\^"Not?A_Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"108^\^", ^\^"Google Chrome^\^";v=^\^"108^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --data-raw "^{^\^"instituteid^\^":^\^"11IN1902J000001^\^",^\^"studentid^\^":^\^"JIAC2202375^\^"^}" ^
+  --compressed
+
+
+
+
+  "/9j/4AAQSkZJRgABAQEAYABgAAD/4RBmRXhpZgAATU0AKgAAAAgAAwESAAMAAAABAAEAAIdpAAQAAAABAAAIPuocAAcAAAgMAAAAMgAAAAAc6gAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB6hwABwAACAwAAAhQAAAAABzqAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIYAAAAAAIQAABtbnRyUkdCIFhZWiAAAAAAAAAAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAAHRyWFlaAAABZAAAABRnWFlaAAABeAAAABRiWFlaAAABjAAAABRyVFJDAAABoAAAAChnVFJDAAABoAAAAChiVFJDAAABoAAAACh3dHB0AAAByAAAABRjcHJ0AAAB3AAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAFgAAAAcAHMAUgBHAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAABvogAAOPUAAAOQWFlaIAAAAAAAAGKZAAC3hQAAGNpYWVogAAAAAAAAJKAAAA+EAAC2z3BhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABYWVogAAAAAAAA9tYAAQAAAADTLW1sdWMAAAAAAAAAAQAAAAxlblVTAAAAIAAAABwARwBvAG8AZwBsAGUAIABJAG4AYwAuACAAMgAwADEANv/hCN1odHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvADw/eHBhY2tldCBiZWdpbj0n77u/JyBpZD0nVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkJz8+DQo8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIj48cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiLz48L3g6eG1wbWV0YT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgPD94cGFja2V0IGVuZD0ndyc/Pv/bAEMAAgEBAgEBAgICAgICAgIDBQMDAwMDBgQEAwUHBgcHBwYHBwgJCwkICAoIBwcKDQoKCwwMDAwHCQ4PDQwOCwwMDP/bAEMBAgICAwMDBgMDBgwIBwgMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDP/AABEIATcBFAMBIgACEQED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"

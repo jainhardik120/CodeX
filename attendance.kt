@@ -1,0 +1,2 @@
+totalPres += ((100 / ((100 - jsonObjectSubData.getString("Ppercentage").toDouble()) / absent)).roundToInt() - jsonObjectSubData.getDouble("abseent").roundToInt())
+totalClass += ((100 / ((100 - jsonObjectSubData.getString("Ppercentage").toDouble()) / absent)).roundToInt())componentIdText.add(jsonObjectSubData.getString("Psubjectcomponentid"))

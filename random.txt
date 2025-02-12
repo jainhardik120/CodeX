@@ -1,0 +1,56 @@
+
+materialButtonOutlinedStyle   ?attr/materialButtonOutlinedStyle => @style/Widget.Material3.Button.OutlinedButton   Widget.Material3.Button.OutlinedButton:     android:android:paddingLeft = @dimen/m3_btn_padding_left => 24dp     android:android:paddingRight = @dimen/m3_btn_padding_right => 24dp     strokeColor = @color/m3_button_outline_color_selector 
+#1E1C1B1F
+Not enabled
+#79747E
+Default
+    strokeWidth = @dimen/m3_btn_stroke_size => 1dp  Inherits from: @style/Widget.Material3.Button.TextButton:     android:android:insetBottom = @dimen/m3_btn_inset => 4dp     android:android:insetTop = @dimen/m3_btn_inset => 4dp     android:android:maxWidth = @dimen/m3_btn_max_width => 320dp     android:android:paddingBottom = @dimen/m3_btn_padding_bottom => 6dp     android:android:paddingTop = @dimen/m3_btn_padding_top => 6dp     android:android:textAppearance = ?attr/textAppearanceLabelLarge => @style/TextAppearance.Material3.LabelLarge     android:android:textColor = @color/m3_text_button_foreground_color_selector 
+#601C1B1F
+Not enabled
+?attr/colorOnContainer
+Not checkable
+#1D192B
+Checked
+#1C1B1F
+Default
+    backgroundTint = @color/m3_text_button_background_color_selector 
+#E8DEF8
+Checked, Enabled
+?attr/colorContainer
+Default
+    enforceTextAppearance = false     iconTint = @color/m3_text_button_foreground_color_selector 
+#601C1B1F
+Not enabled
+?attr/colorOnContainer
+Not checkable
+#1D192B
+Checked
+#1C1B1F
+Default
+    materialThemeOverlay = @style/ThemeOverlay.Material3.Button.TextButton => @style/ThemeOverlay.Material3.Button.TextButton     rippleColor = @color/m3_text_button_ripple_color_selector 
+?attr/colorOnContainer
+Not checkable, Pressed
+?attr/colorOnContainer
+Focused, Not checkable
+?attr/colorOnContainer
+Not checkable, Hovered
+?attr/colorOnContainer
+Not checkable
+#1E1C1B1F
+Checked, Pressed
+#331D192B
+Checked, Focused
+#661D192B
+Checked, Hovered
+#281D192B
+Checked
+#1E1D192B
+Pressed
+#331C1B1F
+Focused
+#661C1B1F
+Hovered
+#281C1B1F
+Default
+    shapeAppearance = @style/ShapeAppearance.Material3.Corner.Full => @style/ShapeAppearance.Material3.Corner.Full  Inherits from: @style/Widget.MaterialComponents.Button.TextButton:     iconPadding = @dimen/mtrl_btn_text_btn_icon_padding => 4dp  Inherits from: @style/Widget.MaterialComponents.Button.UnelevatedButton:     android:android:stateListAnimator = @animator/mtrl_btn_unelevated_state_list_anim => C:/Users/Hardik Jain/.gradle/caches/transforms-3/53edefe15d403f8467620aa121e38059/transformed/material-1.7.0/res/animator/mtrl_btn_unelevated_state_list_anim.xml     elevation = 0dp  Inherits from: @style/Widget.MaterialComponents.Button:     android:android:background = @empty     android:android:insetLeft = 0dp     android:android:insetRight = 0dp     cornerRadius = @null     enforceMaterialTheme = true  Inherits from: @style/Widget.AppCompat.Button:  Inherits from: @style/Base.Widget.AppCompat.Button:  Inherits from: @android:style/Widget.Material.Button:     android:background = @drawable/btn_default_material C:/Program Files/Android/Android Studio/plugins/design-tools/resources/layoutlib/data/framework_res.jar!/res/drawable/btn_default_material.xml    android:clickable = true     android:focusable = true     android:gravity = center_vertical|center_horizontal     android:minHeight = 48dip     android:minWidth = 88dip     android:stateListAnimator = @anim/button_state_list_anim_material => jar://C:/Program Files/Android/Android Studio/plugins/design-tools/resources/layoutlib/data/framework_res.jar!/res/anim/button_state_list_anim_material.xml     android:textAppearance = ?attr/textAppearanceButton => @style/TextAppearance.AppCompat.Widget.Button  Inherits from: @android:style/Widget.Material:  Inherits from: @android:style/Widget: 
+  JIIT_Companion.app.main

@@ -1,0 +1,625 @@
+curl "https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Cache-Control: max-age=0" ^
+  -H "Connection: keep-alive" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "If-Modified-Since: Fri, 30 Dec 2022 06:04:04 GMT" ^
+  -H "Sec-Fetch-Dest: document" ^
+  -H "Sec-Fetch-Mode: navigate" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "Sec-Fetch-User: ?1" ^
+  -H "Upgrade-Insecure-Requests: 1" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --compressed &
+curl "https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --compressed &
+curl "https://www.google.com/recaptcha/api.js" ^
+  -H "authority: www.google.com" ^
+  -H "accept: */*" ^
+  -H "accept-language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "cookie: __Secure-3PSID=SQi3NI3yWN5yoBTtfTD40_zHCpWsr16ynoKj0l8zWYsig0PdNhqLVRJLdmYB6SyE-yYTLw.; __Secure-3PAPISID=PhUFGB7KLNoe0GoR/AQICMgN_bCsjueyPI; NID=511=I0SrgjKZdIJFQmjtO48-9-pCp8naeILL6srtSMddHRCfnbOCgsZmR02w_LICWqtOz7iatpe3AJrg99UrVBcUwk7D1SD-8aasIMTEF2rIvGB9Jt7NRVMkQXYtfck5H7MURnU-jQTdBhoVotVLrhE40wg1I4pqiPd1RXDjdEiB_TJPMr_jfpTLGFgor1qRVgQjv4l8ucHzKFspdSjMoLqk9DJBV_8w89nAnYLbV4aajrDAAzB5s_H_SdwKfIc5BPe_8n9vT3mnGEp4twsYJSLwf8aGu5nvaQjjYd2kjp5vS9LiuQ; 1P_JAR=2023-01-06-16; __Secure-3PSIDCC=AIKkIs0yVFuztNGOLHDxKzmX11Yqh1_EE1US9N9cspaBot-iha-i3UudRf5h_btH361LtTBPvjQ" ^
+  -H "referer: https://webportal.jiit.ac.in:6011/" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  -H "sec-fetch-dest: script" ^
+  -H "sec-fetch-mode: no-cors" ^
+  -H "sec-fetch-site: cross-site" ^
+  -H "user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "x-client-data: CKm1yQEIkLbJAQimtskBCMS2yQEIqZ3KAQi45MoBCJWhywEI8YDNAQiygs0B" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/assets/images/logos/campuslynx-loader.png" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/runtime.677cb970f437b7c6722c.js" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/polyfills.8a3ed600f42be4240993.js" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/main.b74b07bad5331bcb2656.js" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --compressed &
+curl "https://fonts.gstatic.com/s/materialicons/v139/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "Referer: https://fonts.googleapis.com/" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --compressed &
+curl "https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4.woff2" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "Referer: https://fonts.googleapis.com/" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --compressed &
+curl "https://fonts.gstatic.com/s/titilliumweb/v15/NaPecZTIAOhVxoMyOr9n_E7fdMPmDQ.woff2" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "Referer: https://fonts.googleapis.com/" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/roboto-v15-latin-regular.7e367be02cd17a96d513.woff2" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/styles.7d96d7d414f9d7e8ba55.css" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/primeicons.473e2a746d3c151d7dca.ttf" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/styles.7d96d7d414f9d7e8ba55.css" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/clxuser/getmenulist" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"userid":"USID2109A0000458","memberid":"JIAC2202375","instituteid":"11IN1902J000001","membertype":"S"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/assets/images/avatars/profile.jpg" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/assets/images/logos/CLX.png" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/sidebar-bg.5d9b4745577a6249fd83.jpg" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/styles.7d96d7d414f9d7e8ba55.css" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentbankdetails/getstudentbankinfo" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"instituteid":"11IN1902J000001","studentid":"JIAC2202375"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/feedbackformcontroller/getDataForFeedback" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"instituteid":"11IN1902J000001","memberid":"JIAC2202375"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/onlinefeepayment/getmyactivefeeevents" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"instituteid":"11IN1902J000001","studentid":"JIAC2202375","maineventid":""^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/null" ^
+  -H "Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Connection: keep-alive" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: image" ^
+  -H "Sec-Fetch-Mode: no-cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --compressed &
+curl "chrome-extension://cjdnfmjmdligcpfcekfmenlhiopehjkd/web_resources/modal/modal.css" ^
+  -H "Referer;" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  --compressed &
+curl "https://www.gstatic.com/recaptcha/releases/5qcenVbrhOy8zihcc2aHOWD4/recaptcha__en.js" --compressed &
+curl "chrome-extension://aegnopegbbhjeeiganiajffnalhlkkjb/img/popup/setting-icon.svg" ^
+  -H "Referer;" ^
+  -H "If-None-Match: "5Nn/IbW43YPJmgVRwOO6j+mzRCY="" ^
+  -H "If-Modified-Since: Wed, 01 Jun 2022 13:33:00 GMT" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  --compressed &
+curl "chrome-extension://aegnopegbbhjeeiganiajffnalhlkkjb/css/custom.css" ^
+  -H "Referer;" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  --compressed &
+curl "chrome-extension://aegnopegbbhjeeiganiajffnalhlkkjb/img/popup/sts-free-logo.png" ^
+  -H "Referer;" ^
+  -H "If-None-Match: "5Nn/IbW43YPJmgVRwOO6j+mzRCY="" ^
+  -H "If-Modified-Since: Wed, 01 Jun 2022 13:33:00 GMT" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/favicon.ico" --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/5.18ee43c440281ecd0c6a.js" --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/7.e97ee01865890dd4d2fc.js" --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/header-bg.114d593511446b9a4c6e.png" --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/fontawesome-webfont.af7ae505a9eed503f8b8.woff2?v=4.7.0" --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/assets/errorData/errorcode_prelogin.json" --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/StudentClassAttendance/getstudentInforegistrationforattendence" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"clientid":"JAYPEE","instituteid":"11IN1902J000001","studentid":"JIAC2202375","membertype":"S"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/StudentClassAttendance/getstudentattendancedetail" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"clientid":"JAYPEE","instituteid":"11IN1902J000001","studentid":"JIAC2202375","stynumber":"3","registrationid":"JIRUM22050000001"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/StudentClassAttendance/getstudentsubjectpersentage" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"clientid":"JAYPEE","instituteid":"11IN1902J000001","studentid":"JIAC2202375","subjectid":"150061","registrationid":"JIRUM22050000001","cmpidkey":^[^{"subjectcomponentid":"JISCP19050000001"^},^{"subjectcomponentid":"JISCP19050000002"^}^]^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/assets/errorData/errorcode_prelogin.json" --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/reqsubfaculty/getstudentprogrambranch" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"studentid":"JIAC2202375","instituteid":"11IN1902J000001"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/reqsubfaculty/getregistrationList" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"instituteid":"11IN1902J000001","studentid":"JIAC2202375"^}" ^
+  --compressed &
+curl "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEgMWgxMHYySDF6bTAgNGgxMHYySDF6bTAgNGgxMHYySDF6IiBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=" ^
+  -H "Referer;" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/reqsubfaculty/getfaculties" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"studentid":"JIAC2202375","instituteid":"11IN1902J000001","registrationid":"JIRUM22050000001"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentcommonsontroller/getsemestercode-withstudentexamevents" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"clientid":"JAYPEE","memberid":"JIAC2202375","instituteid":"11IN1902J000001"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/assets/errorData/errorcode_prelogin.json" --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/assets/errorData/errorcode_prelogin.json" --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentgradecard/getstudentinfo" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"instituteid":"11IN1902J000001","studentid":"JIAC2202375"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentgradecard/getregistrationList" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"instituteid":"11IN1902J000001","studentid":"JIAC2202375"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentgradecard/showstudentgradecard" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"instituteid":"11IN1902J000001","studentid":"JIAC2202375","registrationid":"JIRUM22050000001","branchid":"JIBRN19040000021","programid":"JIPRO19040000006"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentcommonsontroller/getsemestercode-withstudentexamevents" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"clientid":"JAYPEE","memberid":"JIAC2202375","instituteid":"11IN1902J000001"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/assets/errorData/errorcode_prelogin.json" --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/assets/errorData/errorcode_prelogin.json" --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentcommonsontroller/getsemestercode-exammarks" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"instituteid":"11IN1902J000001","studentid":"JIAC2202375"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentsexamview/getstudent-exammarks" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"instituteid":"11IN1902J000001","registrationid":"JIRUM22110000001","memberid":"JIAC2202375","companyid":null^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentsexamview/printstudent-exammarks/JIAC2202375/11IN1902J000001/JIRUM22110000001/2023EVESEM" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentcommonsontroller/getsemestercode-exammarks" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"instituteid":"11IN1902J000001","studentid":"JIAC2202375"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentsexamview/getstudent-exammarks" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"instituteid":"11IN1902J000001","registrationid":"JIRUM22050000001","memberid":"JIAC2202375","companyid":null^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentsexamview/printstudent-exammarks/JIAC2202375/11IN1902J000001/JIRUM22050000001/2022ODDSEM" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentcommonsontroller/getsemestercode-withstudentexamevents" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"clientid":"JAYPEE","memberid":"JIAC2202375","instituteid":"11IN1902J000001"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/studentportal/assets/errorData/errorcode_prelogin.json" --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentcommonsontroller/getstudentexamevents" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"instituteid":"11IN1902J000001","registationid":"JIRUM22050000001"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentsttattview/getstudent-examschedule" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"memberid":"JIAC2202375","instituteid":"11IN1902J000001","exameventid":"JIEXV2211A0000001","registrationid":"JIRUM22050000001"^}" ^
+  --compressed &
+curl "https://webportal.jiit.ac.in:6011/StudentPortalAPI/studentsttattview/getstudent-examschedule" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Mkw3cE91aHpoSnpLRCtQd2JTOFVBPT0iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfU1RVREVOVCJ9XSwiaXNzIjoiaHR0cDovL2NhbXB1c2x5bnguY29tIiwiaWF0IjoxNjczMDIzMTQzLCJleHAiOjE2NzMxMTMxNDN9.AWMmwmmiNUE4zi3VgQuSu7dobh8zKHnAezKkqHT_M2Q" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/json" ^
+  -H "Cookie: has_js=1; _ga=GA1.3.880992154.1672462993" ^
+  -H "Origin: https://webportal.jiit.ac.in:6011" ^
+  -H "Referer: https://webportal.jiit.ac.in:6011/studentportal/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: "Windows"" ^
+  --data-raw "^{"memberid":"JIAC2202375","instituteid":"11IN1902J000001","exameventid":"JIEXV2210A0000001","registrationid":"JIRUM22050000001"^}" ^
+  --compressed

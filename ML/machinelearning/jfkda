@@ -1,0 +1,182 @@
+companion object {
+        const val ANDROID_KEYSTORE = "AndroidKeyStore"
+        const val BIOMETRIC_KEY_ALIAS = "BioEncDecKey"
+        const val PUBLIC_KEY_ALIAS = "PubEncDecKey"
+
+        const val BACKUP_CIPHER_ALGORITHM = "RSA/ECB/PKCS1Padding"
+        const val BACKUP_KEY_SIZE = 2048
+
+        const val PUBLIC_KEY_STORAGE_DATA = "public_key"
+        const val PUBLIC_KEY_STORAGE_IV = "public_key_iv"
+    }
+
+
+    private fun getKeystore(): KeyStore {
+        return KeyStore.getInstance(ANDROID_KEYSTORE).apply {
+            load(null)
+        }
+    }
+
+    private fun generateKeyInternal(keyGenParameterSpec: KeyGenParameterSpec) {
+        val keyGenerator = KeyGenerator.getInstance(
+            KeyProperties.KEY_ALGORITHM_AES, ANDROID_KEYSTORE
+        )
+        keyGenerator.init(keyGenParameterSpec)
+        keyGenerator.generateKey()
+    }
+
+
+    private fun bytesToHex(bytes: ByteArray): String {
+        val result = StringBuilder()
+        for (b in bytes) {
+            result.append(String.format("%02X", b))
+        }
+        return result.toString()
+    }
+
+
+    private fun getPublicKey(passphrase: String): ByteArray {
+        val secureRandom = SecureRandom.getInstance("SHA1PRNG")
+        secureRandom.setSeed(passphrase.toByteArray())
+        val keyGenerator = KeyPairGenerator.getInstance(KeyProperties.KEY_ALGORITHM_RSA)
+        keyGenerator.initialize(BACKUP_KEY_SIZE, secureRandom)
+        val keyPair =  keyGenerator.generateKeyPair()
+        Log.d("TAG", "getPublicKey: " + bytesToHex(keyPair.private.encoded))
+        return keyPair.public.encoded
+    }
+
+    fun isPublicKeyAvailable() =
+        isKeyPresent(PUBLIC_KEY_ALIAS) && keyValueStorage.contains(PUBLIC_KEY_STORAGE_DATA) && keyValueStorage.contains(
+            PUBLIC_KEY_STORAGE_IV
+        )
+
+    fun storePublicKey(passphrase: String) {
+        val pubKey = getPublicKey(passphrase)
+        val cipher = getCipher()
+        cipher.init(Cipher.ENCRYPT_MODE, getOrCreateKey(PUBLIC_KEY_ALIAS))
+        val encryptedData = cipher.doFinal(pubKey)
+        keyValueStorage.storeValue(
+            PUBLIC_KEY_STORAGE_DATA,
+            Base64.encodeToString(encryptedData, Base64.DEFAULT)
+        )
+        keyValueStorage.storeValue(
+            PUBLIC_KEY_STORAGE_IV,
+            Base64.encodeToString(cipher.iv, Base64.DEFAULT)
+        )
+    }
+
+    fun encryptUsingPublicKey(data: String): String {
+        if (!isPublicKeyAvailable()) {
+            throw Error("Public key is not available")
+        }
+        val cipher = getCipher()
+        cipher.init(
+            Cipher.DECRYPT_MODE, getKeyInternal(PUBLIC_KEY_ALIAS), IvParameterSpec(
+                Base64.decode(
+                    keyValueStorage.getValue(
+                        PUBLIC_KEY_STORAGE_IV
+                    ), Base64.DEFAULT
+                )
+            )
+        )
+        val key = cipher.doFinal(
+            Base64.decode(
+                keyValueStorage.getValue(PUBLIC_KEY_STORAGE_DATA),
+                Base64.DEFAULT
+            )
+        )
+        val keySpec = X509EncodedKeySpec(key)
+        val keyFactory = KeyFactory.getInstance(KeyProperties.KEY_ALGORITHM_RSA)
+        val publicKey = keyFactory.generatePublic(keySpec)
+        val cipher2 = Cipher.getInstance(BACKUP_CIPHER_ALGORITHM)
+        cipher2.init(Cipher.ENCRYPT_MODE, publicKey)
+        val encryptedBytes = cipher2.doFinal(data.toByteArray(Charsets.UTF_8))
+        return Base64.encodeToString(encryptedBytes, Base64.DEFAULT)
+    }
+
+    private fun generatePublicSecureKey() {
+        generateKeyInternal(
+            KeyGenParameterSpec.Builder(
+                PUBLIC_KEY_ALIAS,
+                KeyProperties.PURPOSE_ENCRYPT or KeyProperties.PURPOSE_DECRYPT
+            )
+                .setBlockModes(KeyProperties.BLOCK_MODE_CBC)
+                .setEncryptionPaddings(KeyProperties.ENCRYPTION_PADDING_PKCS7)
+                .setUserAuthenticationRequired(false)
+                .build()
+        )
+    }
+
+    private fun generateBiometricKey() {
+        generateKeyInternal(
+            KeyGenParameterSpec.Builder(
+                BIOMETRIC_KEY_ALIAS,
+                KeyProperties.PURPOSE_ENCRYPT or KeyProperties.PURPOSE_DECRYPT
+            )
+                .setBlockModes(KeyProperties.BLOCK_MODE_CBC)
+                .setEncryptionPaddings(KeyProperties.ENCRYPTION_PADDING_PKCS7)
+                .setUserAuthenticationRequired(true)
+                .setInvalidatedByBiometricEnrollment(true)
+                .build()
+        )
+    }
+
+    private fun isKeyPresent(keyAlias: String): Boolean {
+        return getKeystore().isKeyEntry(keyAlias)
+    }
+
+    private fun getOrCreateKey(keyAlias: String): SecretKey {
+        if (!isKeyPresent(keyAlias)) {
+            if (keyAlias == PUBLIC_KEY_ALIAS) {
+                generatePublicSecureKey()
+            } else {
+                generateBiometricKey()
+            }
+        }
+        return getKeyInternal(keyAlias)
+    }
+
+    private fun getKeyInternal(keyAlias: String): SecretKey {
+        return getKeystore().getKey(keyAlias, null) as SecretKey
+    }
+
+    private fun getCipher(): Cipher {
+        return Cipher.getInstance(
+            KeyProperties.KEY_ALGORITHM_AES + "/"
+                    + KeyProperties.BLOCK_MODE_CBC + "/"
+                    + KeyProperties.ENCRYPTION_PADDING_PKCS7
+        )
+    }
+
+    fun createCryptoObject(
+        purpose: CryptoPurpose,
+        iv: ByteArray?,
+        keyAlias: String
+    ): BiometricPrompt.CryptoObject {
+        val cipher = getCipher()
+        val secretKey = getKeyInternal(keyAlias)
+        if (purpose == CryptoPurpose.Decryption) {
+            cipher.init(Cipher.DECRYPT_MODE, secretKey, IvParameterSpec(iv))
+        } else {
+            cipher.init(Cipher.ENCRYPT_MODE, secretKey)
+        }
+        return BiometricPrompt.CryptoObject(cipher)
+    }
+
+
+    fun encrypt(clearText: String, cryptoObject: BiometricPrompt.CryptoObject): EncryptDataResult {
+        val cipher = cryptoObject.cipher!!
+        val tokenData = clearText.toByteArray(Charsets.UTF_8)
+        val encryptedData = cipher.doFinal(tokenData)
+        val iv = cipher.iv
+        return EncryptDataResult(
+            data = encryptedData,
+            iv = iv
+        )
+    }
+
+    fun decrypt(encryptedData: ByteArray, cryptoObject: BiometricPrompt.CryptoObject): String {
+        val cipher = cryptoObject.cipher!!
+        val decryptedData = cipher.doFinal(encryptedData)
+        return decryptedData.toString(Charsets.UTF_8)
+    }
