@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    array<int, 4> ar = {1,2,3,4};
+    array<int, 4> ar = {1, 2, 3, 4};
     for (int i = 0; i < ar.size(); i++)
     {
         cout << ar[i] << " ";
