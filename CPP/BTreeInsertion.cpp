@@ -1,16 +1,16 @@
 // C++ program for B-Tree insertion
-#include<iostream>
-#include<conio.h>
+#include <iostream>
+#include <conio.h>
 using namespace std;
 
 // A BTree node
 class BTreeNode
 {
-	int *keys; // An array of keys
-	int t;	 // Minimum degree (defines the range for number of keys)
+	int *keys;		 // An array of keys
+	int t;				 // Minimum degree (defines the range for number of keys)
 	BTreeNode **C; // An array of child pointers
-	int n;	 // Current number of keys
-	bool leaf; // Is true when node is leaf. Otherwise false
+	int n;				 // Current number of keys
+	bool leaf;		 // Is true when node is leaf. Otherwise false
 public:
 	BTreeNode(int _t, bool _leaf); // Constructor
 
@@ -29,28 +29,36 @@ public:
 	// A function to search a key in the subtree rooted with this node.
 	BTreeNode *search(int k); // returns NULL if k is not present.
 
-// Make BTree friend of this so that we can access private members of this
-// class in BTree functions
-friend class BTree;
+	// Make BTree friend of this so that we can access private members of this
+	// class in BTree functions
+	friend class BTree;
 };
 
 // A BTree
 class BTree
 {
 	BTreeNode *root; // Pointer to root node
-	int t; // Minimum degree
+	int t;					 // Minimum degree
 public:
 	// Constructor (Initializes tree as empty)
 	BTree(int _t)
-	{ root = NULL; t = _t; }
+	{
+		root = NULL;
+		t = _t;
+	}
 
 	// function to traverse the tree
 	void traverse()
-	{ if (root != NULL) root->traverse(); }
+	{
+		if (root != NULL)
+			root->traverse();
+	}
 
 	// function to search a key in this tree
-	BTreeNode* search(int k)
-	{ return (root == NULL)? NULL : root->search(k); }
+	BTreeNode *search(int k)
+	{
+		return (root == NULL) ? NULL : root->search(k);
+	}
 
 	// The main function that inserts a new key in this B-Tree
 	void insert(int k);
@@ -65,8 +73,8 @@ BTreeNode::BTreeNode(int t1, bool leaf1)
 
 	// Allocate memory for maximum number of possible keys
 	// and child pointers
-	keys = new int[2*t-1];
-	C = new BTreeNode *[2*t];
+	keys = new int[2 * t - 1];
+	C = new BTreeNode *[2 * t];
 
 	// Initialize the number of keys as 0
 	n = 0;
@@ -121,12 +129,12 @@ void BTree::insert(int k)
 		// Allocate memory for root
 		root = new BTreeNode(t, true);
 		root->keys[0] = k; // Insert key
-		root->n = 1; // Update number of keys in root
+		root->n = 1;			 // Update number of keys in root
 	}
 	else // If tree is not empty
 	{
 		// If root is full, then tree grows in height
-		if (root->n == 2*t-1)
+		if (root->n == 2 * t - 1)
 		{
 			// Allocate memory for new root
 			BTreeNode *s = new BTreeNode(t, false);
@@ -158,7 +166,7 @@ void BTree::insert(int k)
 void BTreeNode::insertNonFull(int k)
 {
 	// Initialize index as index of rightmost element
-	int i = n-1;
+	int i = n - 1;
 
 	// If this is a leaf node
 	if (leaf == true)
@@ -168,13 +176,13 @@ void BTreeNode::insertNonFull(int k)
 		// b) Moves all greater keys to one place ahead
 		while (i >= 0 && keys[i] > k)
 		{
-			keys[i+1] = keys[i];
+			keys[i + 1] = keys[i];
 			i--;
 		}
 
 		// Insert the new key at found location
-		keys[i+1] = k;
-		n = n+1;
+		keys[i + 1] = k;
+		n = n + 1;
 	}
 	else // If this node is not leaf
 	{
@@ -183,18 +191,18 @@ void BTreeNode::insertNonFull(int k)
 			i--;
 
 		// See if the found child is full
-		if (C[i+1]->n == 2*t-1)
+		if (C[i + 1]->n == 2 * t - 1)
 		{
 			// If the child is full, then split it
-			splitChild(i+1, C[i+1]);
+			splitChild(i + 1, C[i + 1]);
 
 			// After split, the middle key of C[i] goes up and
 			// C[i] is splitted into two. See which of the two
 			// is going to have the new key
-			if (keys[i+1] < k)
+			if (keys[i + 1] < k)
 				i++;
 		}
-		C[i+1]->insertNonFull(k);
+		C[i + 1]->insertNonFull(k);
 	}
 }
 
@@ -208,14 +216,14 @@ void BTreeNode::splitChild(int i, BTreeNode *y)
 	z->n = t - 1;
 
 	// Copy the last (t-1) keys of y to z
-	for (int j = 0; j < t-1; j++)
-		z->keys[j] = y->keys[j+t];
+	for (int j = 0; j < t - 1; j++)
+		z->keys[j] = y->keys[j + t];
 
 	// Copy the last t children of y to z
 	if (y->leaf == false)
 	{
 		for (int j = 0; j < t; j++)
-			z->C[j] = y->C[j+t];
+			z->C[j] = y->C[j + t];
 	}
 
 	// Reduce the number of keys in y
@@ -223,19 +231,19 @@ void BTreeNode::splitChild(int i, BTreeNode *y)
 
 	// Since this node is going to have a new child,
 	// create space of new child
-	for (int j = n; j >= i+1; j--)
-		C[j+1] = C[j];
+	for (int j = n; j >= i + 1; j--)
+		C[j + 1] = C[j];
 
 	// Link the new child to this node
-	C[i+1] = z;
+	C[i + 1] = z;
 
 	// A key of y will move to this node. Find the location of
 	// new key and move all greater keys one space ahead
-	for (int j = n-1; j >= i; j--)
-		keys[j+1] = keys[j];
+	for (int j = n - 1; j >= i; j--)
+		keys[j + 1] = keys[j];
 
 	// Copy the middle key of y to this node
-	keys[i] = y->keys[t-1];
+	keys[i] = y->keys[t - 1];
 
 	// Increment count of keys in this node
 	n = n + 1;
@@ -258,9 +266,9 @@ int main()
 	t.traverse();
 
 	int k = 6;
-	(t.search(k) != NULL)? cout << "\nPresent" : cout << "\nNot Present";
+	(t.search(k) != NULL) ? cout << "\nPresent" : cout << "\nNot Present";
 
 	k = 15;
-	(t.search(k) != NULL)? cout << "\nPresent" : cout << "\nNot Present";
+	(t.search(k) != NULL) ? cout << "\nPresent" : cout << "\nNot Present";
 	return 0;
 }

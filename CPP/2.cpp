@@ -1,75 +1,41 @@
 #include <iostream>
+#include <vector>
+#include <functional>
 
 using namespace std;
-int a[11][11];
-void s1et(int n)
-{
-    for (int i = 0; i < n; i++)
-    {
-        for (int j = 0; j < n; j++)
-        {
-            a[i][j] = 0;
-        }
+
+int solve(int N, vector<int> Passengers, vector<vector<int>> Edges) {
+    vector<vector<int>> adj(N + 1); // Using 1-based indexing for nodes
+    for (auto& edge : Edges) {
+        int u = edge[0];
+        int v = edge[1];
+        adj[u].push_back(v);
+        adj[v].push_back(u);
     }
+    
+    int count = 0;
+    function<bool(int, int)> dfs = [&](int u, int parent) {
+        bool has_passenger = (Passengers[u - 1] == 1);
+        bool child_has_passenger = false;
+        for (int v : adj[u]) {
+            if (v == parent) continue;
+            bool res = dfs(v, u);
+            child_has_passenger |= res;
+        }
+        if (has_passenger && !child_has_passenger) {
+            ++count;
+        }
+        return has_passenger || child_has_passenger;
+    };
+    
+    dfs(1, -1); // Start DFS from node 1 (root) with no parent
+    return count;
 }
-bool check(int n, int r, int j)
-{
-    for (int i = r - 1; i > -1; i--)
-    {
-        if (a[i][j] == 1)
-        {
-            return false;
-        }
-    }
-    int k = j - 1, l = j + 1;
-    for (int i = r - 1; i > -1; i--)
-    {
-        if (a[i][k--] == 1)
-        {
-            return false;
-        }
-        if (a[i][l++] == 1)
-        {
-            return false;
-        }
-    }
-    return true;
-}
-void QUEEN(int n, int r)
-{
-    if (r == n)
-    {
-        for (int i = 0; i < r; i++)
-        {
-            for (int j = 0; j < r; j++)
-            {
-                cout << a[i][j] << " ";
-            }
-        }
-        cout << endl;
-    }
-    else
-    {
-        for (int j = 0; j < n; j++)
-        {
-            if (check(n, r, j))
-            {
-                a[r][j] = 1;
-                QUEEN(n, r + 1);
-                a[r][j] = 0;
-            }
-        }
-    }
-}
-void PLACE(int n)
-{
-    s1et(n);
-    QUEEN(n, 0);
-}
-int main()
-{
-    int n;
-    cin >> n;
-    PLACE(n);
+int main() {
+    int N = 8;
+    vector<int> Passengers = {0, 0, 0 ,1, 0, 1, 1, 1 }; // 1-indexed in problem, but 0-indexed in array
+    vector<vector<int>> Edges = {{4,5}, {8,4}, {7,4}, {1,8}, {6,8},{3,4}, {2,8}};
+    
+    cout << "Minimum buses needed: " << solve(N, Passengers, Edges) << endl;
     return 0;
 }
